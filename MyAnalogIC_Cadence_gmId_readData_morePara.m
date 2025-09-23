@@ -19,7 +19,7 @@ function stc = MyAnalogIC_Cadence_gmId_readData_morePara(deviceName, flag_plot)
     ];
     
 %%
-    export_path = "D:\a_Win_VM_shared\a_Misc\Cadence_Data";
+    export_path = "D:\share\Test_Cadence_Data";
     export_deviceName = deviceName;
     export_fileFormat = ".txt";
     data_str__ = '_' + data_str;
@@ -38,7 +38,7 @@ function stc = MyAnalogIC_Cadence_gmId_readData_morePara(deviceName, flag_plot)
     end
 
 %{
-    export_path = "D:\a_Win_VM_shared\a_Misc\Cadence_Data";
+    export_path = "D:\share\Test_Cadence_Data";
     export_deviceName = deviceName;
     export_fileFormat = ".txt";
 

@@ -3,7 +3,7 @@ Debug = 0;
 % 读取 SKILL 代码导出的 .txt 文件, 数字格式 scientific, cadence 数据导出参考代码见文末
 % 导出的数据格式为 "colomn"
 %%
-    % filePath = "D:\a_Win_VM_shared\a_Misc\Cadence_Data\tsmc18rf_gmIdData_nmos2v\tsmc18rf_gmIdData_nmos2v_selfGain.txt";
+    % filePath = "D:\share\Test_Cadence_Data\tsmc65_gmIdData_nmos2v\tsmc65_gmIdData_nmos2v_selfGain.txt";
     fileContent = fileread(filePath);
 
 % 提取 length
@@ -102,8 +102,8 @@ end
 ; 快速导出 gm-Id 仿真数据
 
     ; 设置数据导出路径和器件名称
-        ; 完整路径例如 "/home/IC/a_Win_VM_shared/a_Misc/Cadence_Data/tsmc18rf_gmIdData_nmos2v/tsmc18rf_gmIdData_nmos2v_test.txt"
-        export_path = "/home/IC/a_Win_VM_shared/a_Misc/Cadence_Data"
+        ; 完整路径例如 "/home/mnt/hfgs/share/Test_Cadence_Data/tsmc65_gmIdData_nmos2v/tsmc65_gmIdData_nmos2v_test.txt"
+        export_path = "/home/mnt/hfgs/share/Test_Cadence_Data/"
         export_deviceName = "tsmc18rf_gmIdData_nmos2v"
         export_fileFormat = ".txt"
     ; 创建各个数据的 filePathAndName
